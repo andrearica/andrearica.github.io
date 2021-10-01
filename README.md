@@ -1,6 +1,6 @@
 ## Andy
 
-<div align="center"><img src="buhat-doodle.jpg" width="200" height="200" alt="description-of-image" /></div>
+<div align="center"><img src="buhat_doodle.jpg" width=400 alt="description-of-image" /></div>
 
 You can use the [editor on GitHub](https://github.com/andrearica/andrearica.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
