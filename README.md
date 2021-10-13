@@ -1,9 +1,10 @@
 ## Andy
 
-<div align="center"><img src="me_doodle.jpg" width=400 alt="description-of-image" align="left" /></div>
+<div align="center"><img src="me_doodle.jpg" width=150 alt="description-of-image" align="left" /></div>
 
 Hi I'm Andy!
 Welcome to my blog where you'll find all sorts of random stuff. I write about films, books, original poetry, and some attempts to document my data/ tech journey.
+
 
 You can use the [editor on GitHub](https://github.com/andrearica/andrearica.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
