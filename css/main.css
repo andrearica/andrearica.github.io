@@ -3,7 +3,7 @@
 
 html,
 body {
-  font-family: 'comfortaa', sans-serif;
+  font-family: 'nunito', sans-serif;
   text-align: center;
 }
 
@@ -15,21 +15,21 @@ body {
 /* Nav bar */
 
  nav ul {
-  position: fixed;
+  position: static;
   text-align: right;
   width: 100%;
-  background-color: #Fff;
-  font-family: "comfortaa",sans-serif; 
-  font-size: 1.2em; 
+  background-color: #771414;
+  font-family: "nunito",sans-serif; 
+  font-size: 1em; 
 }
 
 nav ul li {
   display: inline-block;
-  margin: 30px; 
+  margin: 20px; 
 }
 
 nav ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;  
 }
 nav ul li a:hover {
@@ -38,11 +38,45 @@ nav ul li a:hover {
 
 /* about me */
 
-#welcome-section {
-  top: 20;
-  line-height: 1.6;
-  background: #F5F5F5;
-  min-height: 55vh;
-  padding-top: 45vh;
-  text-align: 
+.welcome-section {
+  background: #ffffff;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%
+}
+
+#background {
+  background: #B38CB4;
+  position:absolute;
+  top: 120px;
+  right: 370px;
+  width: 630px;
+  height: 230px;
+  z-index: 0;
+  opacity: 50%;
+}
+
+div.post-content {
+  text-align: left;
+  margin-right: 28%;
+  float:center;
+  z-index:1;
+}
+
+div.post-thumb{
+  margin-left: 25%;
+  margin-right: 20px;
+  z-index: 1;
+}
+
+img#display-pic{
+  border-radius: 50%;
+}
+
+h3.post-title{
+  font-weight: 700;
+  font-size: 5em;
+  color : #000;
+  font-family: Helvetica;
+  margin-bottom:10px;
 }
