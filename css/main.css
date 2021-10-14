@@ -14,13 +14,20 @@ body {
 
 /* Nav bar */
 
- nav ul {
+nav{
+  display:flex;
+  background-color: #fff;
+  border-bottom: 1.5px solid #771414;
+} 
+
+nav ul {
   position: static;
   text-align: right;
   width: 100%;
-  background-color: #771414;
   font-family: "nunito",sans-serif; 
   font-size: 1em; 
+  margin-right: 20%;
+  color: #771414;
 }
 
 nav ul li {
@@ -29,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #771414;
   text-decoration: none;  
 }
 nav ul li a:hover {
@@ -39,44 +46,52 @@ nav ul li a:hover {
 /* about me */
 
 .welcome-section {
-  background: #ffffff;
+  background: #FF9C9C;
+  background-blend-mode: lighten;
   display: flex;
-  padding-top: 5%;
-  padding-bottom: 5%
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 25%;
 }
 
-#background {
-  background: #B38CB4;
-  position:absolute;
-  top: 120px;
-  right: 370px;
-  width: 630px;
-  height: 230px;
-  z-index: 0;
-  opacity: 50%;
-}
 
 div.post-content {
   text-align: left;
-  margin-right: 28%;
   float:center;
   z-index:1;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 div.post-thumb{
-  margin-left: 25%;
+  margin-left: -15%;
   margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
   z-index: 1;
 }
 
 img#display-pic{
   border-radius: 50%;
+  max-width: 300px;
+  width: 100%;
+  height:auto;
 }
 
 h3.post-title{
   font-weight: 700;
-  font-size: 5em;
+  font-size: 5vw;
   color : #000;
   font-family: Helvetica;
   margin-bottom:10px;
+}
+
+div.post-content > p{
+  font-size: 1.17vw;
+  color : #000;
+  font-family: "Nunito";
+  margin-bottom: 2%;
+  margin-right: 5%
 }
