@@ -24,9 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   wip description
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: burgAndyyyyyy
-github_username:  andrearica
 
+social_sites:
+  github:  andrearica
+  twitter: burgAndyyyyyy 
+  linkedin: andrea-rica-advincula-99418614b
+  
 # Build settings
 theme: minima
 plugins:
